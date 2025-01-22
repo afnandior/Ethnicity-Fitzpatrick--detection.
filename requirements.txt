@@ -1,3 +1,6 @@
 Flask
 Flask-SocketIO
 opencv-python
+tensorflow
+scikit-learn
+numpy
