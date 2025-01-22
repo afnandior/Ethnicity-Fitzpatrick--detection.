@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 socket.emit('video_frame', frame);
             }
 
-            // Send frames every 5 seconds
-            setInterval(sendFrame, 5000);
+            // Send frames every 5 mins
+            setInterval(sendFrame, 300000);
         })
         .catch(function (err) {
             console.error("Error accessing camera: " + err);
